@@ -1,8 +1,12 @@
+.container {
+	max-width: 1440px !important;
+	height: 1161px !important;
+}
+
 .header__background-image {
-	background-image: url("./img/image_header.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 1200px;
+	background: url("./img/image_header.png");
+	background-repeat: no-repeat;
+	background-size: 1490.03px 1161px;
 }
 
 .narbar__menu {
@@ -56,6 +60,7 @@
 	font-weight: 500;
 	line-height: 18px;
 	background: var(--colour-main-blue-800, #111b47);
+	border: none;
 }
 
 .header__content {
@@ -104,6 +109,7 @@
     width: 189px;
     height: 36px;
     flex-shrink: 0;
+	border: none;
 }
 
 .header__button__second {
@@ -208,6 +214,10 @@
 	flex-shrink: 0;
 	background: #e7ecff;
 	padding-bottom: 30px;
+}
+
+.main__content__footer > .container {
+	height: 216px !important;
 }
 
 .main__content__footer__body {
